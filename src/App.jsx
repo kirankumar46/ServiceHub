@@ -61,7 +61,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/ServiceHub">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/user-type" element={<UserTypeSelection />} />
